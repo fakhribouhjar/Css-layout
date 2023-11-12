@@ -2,17 +2,19 @@ header img {
   width: 268px;
   height: 33px;
 }
-
+body{
+font-family: "Work Sans";
+}
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
-  position: fi xed;
+  position: sticky;
   top: 0;
-  width: 100vw;
+
   background-color: white;
-  z-index: 1000;
+  
 }
 .navtools {
   display: flex;
@@ -48,9 +50,8 @@ header {
 }
 #txt1 {
   color: #00b39b;
-  font-size: 3.29rem;
-  font-family: Work Sans, Arial, sans-serif;
-  font-weight: 300;
+  font-size:36px;
+  font-weight: 400;
   letter-spacing: -0.3px;
   padding-top: 20px;
 }
@@ -63,7 +64,7 @@ header {
   padding: 30px;
   padding-left: 260px;
   padding-right: 280px;
-  width: 100%;
+
   justify-content: space-between;
 }
 .p1 {
