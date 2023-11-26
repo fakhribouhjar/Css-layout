@@ -181,4 +181,36 @@ header {
   width: 7.5rem;
   object-fit: contain;
 }
+.green-banner{
+  display: flex;
+  background-color: rgb(130, 229, 216);
+  height: 80vh;
+  width: 100vw;
+  margin-top: 55px;
+  justify-content: center;
+  align-items: center;
+}
+.inner-banner{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  height: 90%;
+}
+.left{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.right{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.sygnet{
+  width: 70%;
+  height: 90%;
+}
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
